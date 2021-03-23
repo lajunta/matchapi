@@ -1,0 +1,4 @@
+github.com/bozaro/golorem v0.0.0-20170501165920-50e5b610280b h1:D3YtkBLwtjFPegR4lwiwoCiV+f7bOq/MDh6Xi+nEq3Q=
+github.com/bozaro/golorem v0.0.0-20170501165920-50e5b610280b/go.mod h1:gqvWc1EBvN2S3BBwczsP6n4MFQzpHRffNXxK2pebPPA=
+github.com/jaswdr/faker v1.3.0 h1:zkSkC6+khN6Pf3H6nDfeErq0NenDKGnHowEtSDaXWwI=
+github.com/jaswdr/faker v1.3.0/go.mod h1:x7ZlyB1AZqwqKZgyQlnqEG8FDptmHlncA5u2zY/yi6w=
