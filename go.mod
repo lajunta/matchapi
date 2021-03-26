@@ -1,4 +1,4 @@
-module jsonap
+module matchapi
 
 go 1.16
 
