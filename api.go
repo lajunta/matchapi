@@ -9,15 +9,17 @@ import (
 func showApi() string {
 	ip := apiurl()
 	str := fmt.Sprintf(`
-	Links:
-  ---------------------------------------------
-	news:		%s/assets/news/1.html
-	images:		%s/assets/images/1.jpg
-	newsAPI:	%s/wp-json/cyberbuf/news
-	bannerAPI:	%s/wp-json/cyberbuf/banner
-	securityAPI:	%s/wp-json/cyberbuf/security
-	solutionsAPI:	%s/wp-json/cyberbuf/solutions
-	`, ip, ip, ip, ip, ip, ip)
+API 地址与说明:
+-------------------------------
+news:		%s/assets/news/1.html
+images:		%s/assets/images/1.jpg
+newsAPI:	%s/wp-json/nautica/news
+newsAPI:	%s/wp-json/nautica/videos
+faqAPI:		%s/wp-json/nautica/faq
+bannerAPI:	%s/wp-json/nautica/banner
+securityAPI:	%s/wp-json/nautica/security	
+solutionsAPI:	%s/wp-json/nautica/solutions
+`, ip, ip, ip, ip, ip, ip, ip, ip)
 	return str
 }
 
